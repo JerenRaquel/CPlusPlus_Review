@@ -1,0 +1,16 @@
+To Run:
+=>  Open/run the application called "Application".
+
+To Compile:
+=>  Windows only: (requires MinGW)
+----> Run the file called "WindowGPP_Compile.bat".
+
+=>  Mac/Linux:
+----> Make sure you navigate to this folder's directory.
+----> type "make create" in the terminal" 
+
+To Clean:
+=>  Windows:
+----> Run "WindowGPP_Clear.bat"
+=> Mac/Linux:
+----> type "make clear"
