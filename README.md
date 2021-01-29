@@ -18,3 +18,13 @@ Open/run the application called "Application".
 - Run "WindowGPP_Clear.bat"
 #### Mac/Linux
 - type "make clear"
+
+## Content
+A Main program file to print Hello World!
+### Details
+- Comments
+- Main funtion
+- Including libraries (minimal)
+- Standard Namespace (minimal)
+- Printing
+- Strings (minimal)
