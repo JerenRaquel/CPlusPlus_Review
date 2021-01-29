@@ -21,7 +21,7 @@ Open/run the application called "Application".
 
 ## Content
 A Main program file to print Hello World!
-**NOTE: ALL C++ FILES WILL BE IN SRC**
+- **NOTE: ALL C++ FILES WILL BE IN SRC**
 ### Details
 - Comments
 - Main funtion
