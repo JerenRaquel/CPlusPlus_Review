@@ -3,7 +3,10 @@
  *	An application to help review, revisit, or learn C++. This will act as
  * the driver once there are more than 1 file.
  */
-#include <iostream>  // <----------- This is an include statement. It allows your program to call/use already made things for easy of use.
+
+// Full uncommented code at the very end of file.
+
+#include <iostream>  // <----------- This is an include statement. It allows your program to call/use already made things for ease of use.
 // ^^^^^^^^^ "iostream" adds features like "cout" which allows for printing text
 // to the console (terminal); more info below!
 
@@ -11,10 +14,10 @@
 
 /*  <---- This is the symbol for STARTING block comments.
  *  Block comments are for writing comments that are more than one line.
- *  The inside of these blocks should contain the beginning symbol so you can
- * signify the content of the block. However, the compiler does not need this to
- * be able to build your program. It's just convention. You SHOULD have the
- * START AND END symbols though.
+ *  The inside of these blocks should contain the * symbol at the beginning of
+ * each line so you can signify the content of the block. However, the compiler
+ * does not need this to be able to build your program. It's just convention.
+ * You SHOULD have the START AND END symbols though.
  */ // <---- This is the symbol for ENDING block comments.
 
 /*  Comments are used to display things that the programmer or who reads this
@@ -33,12 +36,12 @@
 // vvvvvv int argc, char **argv will be explain later!
 int main(int argc, char **argv) {
   // This will be the code analyzed first. There is a lot to talk about.
-  // However, only a few things will be said for now!
+  // However, only the needed info will be said for now!
   // vvvvvvvvvvvvvvvvvvvvvvvvvvvvv
   std::cout << "Hello World!" << std::endl;
   /*  std:: <----- This is called a namespace, the Standard namespace :)
-   * Basic C++ will be using this, so anything that you need from the "imports"
-   * that ARE part of C++ will need this. ie) std::cout, std::endl,
+   * Basic C++ will be using this, so anything that you need from the
+   * "#include"s that ARE part of C++ will need this. ie) std::cout, std::endl,
    * std::vector<>
    */
   /*  cout <----- This is used to print. There are more things about this, but
@@ -54,9 +57,9 @@ int main(int argc, char **argv) {
    * letters with "" like in the example used.
    */
   /*  endl <--- This is an end of line character. It ends a line in the console.
-   * just like you press enter on your keyboard when writing an essay to begin a
-   * new line. It's that! You can also put "\n" instead! However, it's better to
-   * use std::endl.
+   * just like when you press enter on your keyboard when writing an essay to
+   * begin a new line. It's that! You can also put "\n" instead! However, it's
+   * better to use std::endl.
    */
   /*  Lastly, the symbol ";", this is VERY important. All statements in C++
    * require a semicolon at the end of the line to be used. Or, the compiler
@@ -72,3 +75,12 @@ int main(int argc, char **argv) {
 
   return 0;  // <---- This will be explained later, just know its optional!
 }
+
+// vvvvvvvvv Code without the information above ;) vvvvvvvvvvv
+
+// #include <iostream>
+//
+// int main(int argc, char **argv) {
+//   std::cout << "Hello World!" << std::endl;
+//   return 0;
+// }
